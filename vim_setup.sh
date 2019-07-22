@@ -1,5 +1,9 @@
 #!/bin/bash
 
+cp bash_config ~/.bashrc
+
+cp vim_config ~/.vimrc
+
 # Install Pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
