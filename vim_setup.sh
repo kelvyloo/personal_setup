@@ -29,3 +29,7 @@ cd ~/.vim/bundle
 git clone https://github.com/flazz/vim-colorschemes
 mv vim-colorschemes/colors ~/.vim
 rm -rf ~/.vim/bundlevim-colorschemes
+
+# improved C highlighting
+cd ~/.vim/bundle
+git clone https://github.com/octol/vim-cpp-enhanced-highlight
